@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load model (relative path, must be in same directory)
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model (2).sav', 'rb'))
 
 st.title('Diabetes Prediction using Machine Learning')
 
