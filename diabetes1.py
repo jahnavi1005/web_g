@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the saved diabetes model using full path (Windows)
-model_path = r"C:\Users\jahna\Downloads\diabetes_model (2).sav"
+model_path = diabetes_model (2).sav
 diabetes_model = pickle.load(open(model_path, 'rb'))
 
 # Page Title
